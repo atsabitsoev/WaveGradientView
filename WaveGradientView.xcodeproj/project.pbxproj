@@ -12,6 +12,7 @@
 		AC2F8B102277122C0071CEBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2F8B0E2277122C0071CEBF /* Main.storyboard */; };
 		AC2F8B122277122D0071CEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2F8B112277122D0071CEBF /* Assets.xcassets */; };
 		AC2F8B152277122D0071CEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2F8B132277122D0071CEBF /* LaunchScreen.storyboard */; };
+		AC2F8B1D2277125E0071CEBF /* WaveGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2F8B1C2277125E0071CEBF /* WaveGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC2F8B112277122D0071CEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC2F8B142277122D0071CEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2F8B162277122D0071CEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2F8B1C2277125E0071CEBF /* WaveGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				AC2F8B0A2277122C0071CEBF /* AppDelegate.swift */,
 				AC2F8B0C2277122C0071CEBF /* ViewController.swift */,
+				AC2F8B1C2277125E0071CEBF /* WaveGradientView.swift */,
 				AC2F8B0E2277122C0071CEBF /* Main.storyboard */,
 				AC2F8B112277122D0071CEBF /* Assets.xcassets */,
 				AC2F8B132277122D0071CEBF /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				AC2F8B0D2277122C0071CEBF /* ViewController.swift in Sources */,
 				AC2F8B0B2277122C0071CEBF /* AppDelegate.swift in Sources */,
+				AC2F8B1D2277125E0071CEBF /* WaveGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

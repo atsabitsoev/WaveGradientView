@@ -34,10 +34,10 @@ class WaveGradientView: UIView {
         mainPath.addLine(to: CGPoint(x: 0, y: 0))
         mainPath.addLine(to: startPoint)
         mainPath.addCurve(to: endPoint,
-                          controlPoint1: CGPoint(x: startPoint.x + 90,
-                                                 y: (startPoint.y + endPoint.y) / 2 - 100),
-                          controlPoint2: CGPoint(x: endPoint.x - 30,
-                                                 y: (startPoint.y + endPoint.y) / 2))
+                          controlPoint1: CGPoint(x: startPoint.x + 100,
+                                                 y: (startPoint.y + endPoint.y) / 2 - 80),
+                          controlPoint2: CGPoint(x: endPoint.x - 50,
+                                                 y: (startPoint.y + endPoint.y) / 2 + 30))
         mainPath.close()
         color1.setFill()
         mainPath.fill()

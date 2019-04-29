@@ -17,7 +17,7 @@ class WaveGradientView: UIView {
     
 
     override func draw(_ rect: CGRect) {
-       
+        backgroundColor = .clear
         drawWaveView()
     }
     
